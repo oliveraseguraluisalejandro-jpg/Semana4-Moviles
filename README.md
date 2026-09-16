@@ -2,6 +2,26 @@
 
 Aplicación móvil nativa para Android diseñada para llevar el control de finanzas personales. Permite registrar ingresos y gastos, visualizar el balance total en tiempo real y consultar el historial de movimientos recientes de manera sencilla e intuitiva.
 
+## 👥 Integrantes del Equipo
+
+| Olivera Segura, Luis Alejandro | 
+| Espinal Morillas, Sergio Antonio Sebastian | 
+| Arquiñigo Rojas, Abad Junior | 
+| Landeo Castillo, Félix Ruben | 
+| Vela Bravo, Glen Galahad | 
+| Zarate Mamani, Junior Del Piero | 
+
+## 📝 Descripción del Proyecto (¿Qué se hizo?)
+
+Este proyecto fue desarrollado como parte de la **Semana 4** del curso Desarrollo de Aplicaciones Móviles. El objetivo principal fue crear una aplicación Android funcional que permita al usuario gestionar sus finanzas personales de manera local.
+
+### Actividades realizadas:
+1. **Análisis de Requerimientos:** Se definió la estructura de datos necesaria para representar un movimiento financiero (descripción, monto, método de pago y tipo: ingreso/gasto).
+2. **Diseño de Interfaz (UI/UX):** Se implementó un diseño minimalista con modo oscuro, tarjetas para cada movimiento y un botón flotante para acciones rápidas.
+3. **Lógica de Negocio:** Se programó el cálculo automático del balance total (suma de ingresos menos suma de gastos) y la actualización dinámica de la lista de movimientos.
+4. **Implementación Técnica:** Se utilizó [Jetpack Compose / XML] para la interfaz, [Room / SQLite / Memoria] para la persistencia de datos y [MVVM] como arquitectura de software.
+5. **Pruebas y Despliegue:** Se realizaron pruebas en emulador y dispositivo físico, verificando la correcta visualización de colores (verde/rojo) y el cálculo del saldo.
+
 ## 📱 Características Principales
 
 *   **Balance Total:** Cálculo en tiempo real del saldo disponible (Ingresos - Gastos).
