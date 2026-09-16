@@ -4,8 +4,6 @@ import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -49,11 +47,15 @@ public class MainActivity extends AppCompatActivity {
             NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         }
 
-        binding.fab.setOnClickListener(
-                view -> Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAnchorView(R.id.fab)
-                        .setAction("Action", null).show()
-        );
+        binding.fab.setOnClickListener(view -> {
+            if (navHostFragment != null) {
+                NavController navController = navHostFragment.getNavController();
+                if (navController.getCurrentDestination() != null &&
+                        navController.getCurrentDestination().getId() == R.id.FirstFragment) {
+                    navController.navigate(R.id.action_FirstFragment_to_SecondFragment);
+                }
+            }
+        });
     }
 
     @Override
