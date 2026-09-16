@@ -4,12 +4,12 @@ Aplicación móvil nativa para Android diseñada para llevar el control de finan
 
 ## 👥 Integrantes del Equipo
 
-| Olivera Segura, Luis Alejandro | 
-| Espinal Morillas, Sergio Antonio Sebastian | 
-| Arquiñigo Rojas, Abad Junior | 
-| Landeo Castillo, Félix Ruben | 
-| Vela Bravo, Glen Galahad | 
-| Zarate Mamani, Junior Del Piero | 
+| Olivera Segura, Luis Alejandro |  Líder de Proyecto / Scrum Master |
+| Espinal Morillas, Sergio Antonio Sebastian | Desarrollador UI/UX (Diseño de Interfaz) |
+| Arquiñigo Rojas, Abad Junior |  Administrador de Base de Datos (Backend Local) |
+| Landeo Castillo, Félix Rubén | Desarrollador de Lógica de Negocio |
+| Vela Bravo, Glen Galahad |  Desarrollador de Integración y Pruebas (QA) |
+| Zarate Mamani, Junior Del Piero | Documentador Técnico / DevOps |
 
 ## 📝 Descripción del Proyecto (¿Qué se hizo?)
 
