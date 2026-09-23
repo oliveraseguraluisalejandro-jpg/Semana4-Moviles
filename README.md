@@ -53,4 +53,4 @@ Este proyecto fue desarrollado como parte de la **Semana 4** del curso Desarroll
 
 1.  Clona este repositorio:
     ```bash
-    git clone https://github.com/oliveraseguraluisalejandro-jpg/Semana4-Movies.git
+    git clone https://github.com/oliveraseguraluisalejandro-jpg/Semana4-Moviles.git
